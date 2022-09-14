@@ -21,13 +21,14 @@ using namespace std;
 
 int main() {
 	// TODO: have users input length and width rather than
-	// set it before compile.
+	// set it as constant before compile.
 	const double LENGTH = 8;
 	const double WIDTH = 3;
 
 	double perimeter = 2 * (LENGTH) + 2 * (WIDTH);
 	double area = LENGTH * WIDTH;
 
+	// Boring
 	cout << "The perimeter of the rectangle is " << perimeter << endl;
 	cout << "The area of the rectangle is " << area << endl;
 
